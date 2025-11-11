@@ -1,0 +1,13 @@
+# Exclude version control
+.git
+!.gitignore
+
+# Exclude all local environment files
+.env
+*.env
+app.env
+
+# Exclude build artifacts
+cryptoberus
+
+/build/*
